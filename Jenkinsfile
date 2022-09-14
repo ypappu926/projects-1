@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Git Clone"){
             steps {
-                git url:
+                git url:'https://github.com/ypappu926/projects-1.git'
             }
         }
         stage("Build Maven"){
