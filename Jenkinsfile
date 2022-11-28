@@ -5,7 +5,7 @@ pipeline {
            steps {
                sh """
                echo "Building Artifact"
-               echo $JOB_NAME
+               echo $WORKSPACE
                """
            }
        }
