@@ -12,6 +12,7 @@ pipeline {
           steps {
                sh """
                echo "Deploying Code QA"
+               echo $WORKSPACE
                """
           }
       }
